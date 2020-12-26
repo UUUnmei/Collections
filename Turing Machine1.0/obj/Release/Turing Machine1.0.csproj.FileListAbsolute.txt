@@ -1,0 +1,15 @@
+D:\Visual Studio\Turing Machine1.0\bin\Release\Turing Machine1.0.exe.config
+D:\Visual Studio\Turing Machine1.0\bin\Release\Turing Machine1.0.exe
+D:\Visual Studio\Turing Machine1.0\bin\Release\Turing Machine1.0.pdb
+D:\Visual Studio\Turing Machine1.0\obj\Release\MainWindow.g.cs
+D:\Visual Studio\Turing Machine1.0\obj\Release\App.g.cs
+D:\Visual Studio\Turing Machine1.0\obj\Release\Turing Machine1.0_MarkupCompile.cache
+D:\Visual Studio\Turing Machine1.0\obj\Release\Turing Machine1.0_MarkupCompile.lref
+D:\Visual Studio\Turing Machine1.0\obj\Release\App.baml
+D:\Visual Studio\Turing Machine1.0\obj\Release\MainWindow.baml
+D:\Visual Studio\Turing Machine1.0\obj\Release\Turing Machine1.0.g.resources
+D:\Visual Studio\Turing Machine1.0\obj\Release\TuringMachine.Properties.Resources.resources
+D:\Visual Studio\Turing Machine1.0\obj\Release\Turing Machine1.0.csproj.GenerateResource.cache
+D:\Visual Studio\Turing Machine1.0\obj\Release\Turing Machine1.0.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Turing Machine1.0\obj\Release\Turing Machine1.0.exe
+D:\Visual Studio\Turing Machine1.0\obj\Release\Turing Machine1.0.pdb
