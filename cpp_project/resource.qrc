@@ -1,0 +1,43 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/app.ico</file>
+        <file>resource/app.png</file>
+        <file>resource/background.png</file>
+        <file>resource/background1.png</file>
+        <file>resource/icons8-airplane-mode-on-96.png</file>
+        <file>resource/icons8-airport-64.png</file>
+        <file>resource/icons8-avro-504-plane-96.png</file>
+        <file>resource/icons8-dirigible-96.png</file>
+        <file>resource/icons8-dirigible-160.png</file>
+        <file>resource/icons8-fighter-80 (1).png</file>
+        <file>resource/icons8-fighter-80.png</file>
+        <file>resource/icons8-fighter-96.png</file>
+        <file>resource/icons8-fighter-100 (1).png</file>
+        <file>resource/icons8-fighter-100.png</file>
+        <file>resource/icons8-fighter-jet-80 (1).png</file>
+        <file>resource/icons8-fighter-jet-80.png</file>
+        <file>resource/icons8-fighter-jet-96.png</file>
+        <file>resource/icons8-fighter-jet-100.png</file>
+        <file>resource/bullet1.png</file>
+        <file>resource/bullet2.png</file>
+        <file>resource/enemy_bullet1.png</file>
+        <file>resource/bomb-1.png</file>
+        <file>resource/bomb-2.png</file>
+        <file>resource/bomb-3.png</file>
+        <file>resource/bomb-4.png</file>
+        <file>resource/bomb-5.png</file>
+        <file>resource/bomb-6.png</file>
+        <file>resource/bomb-7.png</file>
+        <file>resource/321.gif</file>
+        <file>resource/321_transparent.gif</file>
+        <file>resource/heart.png</file>
+        <file>resource/heart_lose.png</file>
+        <file>resource/heart_2.png</file>
+        <file>resource/heart_lose_2.png</file>
+        <file>resource/boss.png</file>
+        <file>resource/background2.png</file>
+        <file>resource/icons8-fighter-96-2.png</file>
+        <file>resource/black_2.gif</file>
+        <file>resource/intro-back-1.png</file>
+    </qresource>
+</RCC>
