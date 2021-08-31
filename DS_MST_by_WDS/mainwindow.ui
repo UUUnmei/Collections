@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1440</width>
+    <height>960</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1440</width>
+    <height>960</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Microsoft YaHei</family>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>VisuALgorithm</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icon/icon/Visualgorithm.ico</normaloff>:/icon/icon/Visualgorithm.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1440</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSet">
+    <property name="title">
+     <string> 设置 </string>
+    </property>
+    <addaction name="changeEdgeValue"/>
+    <addaction name="changeBoard"/>
+   </widget>
+   <widget class="QMenu" name="menuLoad">
+    <property name="title">
+     <string>  图  </string>
+    </property>
+    <addaction name="load1"/>
+    <addaction name="load2"/>
+   </widget>
+   <widget class="QMenu" name="menuAlgo">
+    <property name="title">
+     <string> 算法 </string>
+    </property>
+    <addaction name="actiondfs"/>
+    <addaction name="actionbfs"/>
+    <addaction name="actionprime"/>
+    <addaction name="actionKruskal"/>
+   </widget>
+   <addaction name="menuLoad"/>
+   <addaction name="menuAlgo"/>
+   <addaction name="menuSet"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="floatable">
+    <bool>false</bool>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="createVertex"/>
+   <addaction name="createEdge"/>
+   <addaction name="withdrawDraw"/>
+   <addaction name="clearDraw"/>
+  </widget>
+  <action name="createVertex">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/vertex.png</normaloff>:/icon/icon/vertex.png</iconset>
+   </property>
+   <property name="text">
+    <string>顶点</string>
+   </property>
+  </action>
+  <action name="createEdge">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/edge.png</normaloff>:/icon/icon/edge.png</iconset>
+   </property>
+   <property name="text">
+    <string>边</string>
+   </property>
+  </action>
+  <action name="animation">
+   <property name="text">
+    <string>Let's Go!</string>
+   </property>
+  </action>
+  <action name="changeEdgeValue">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/value.png</normaloff>:/icon/icon/value.png</iconset>
+   </property>
+   <property name="text">
+    <string>显示边权</string>
+   </property>
+  </action>
+  <action name="load1">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/NEU.png</normaloff>:/icon/icon/NEU.png</iconset>
+   </property>
+   <property name="text">
+    <string>校园地图</string>
+   </property>
+  </action>
+  <action name="load2">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/Load.png</normaloff>:/icon/icon/Load.png</iconset>
+   </property>
+   <property name="text">
+    <string>引入地图</string>
+   </property>
+  </action>
+  <action name="actiondfs">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/DFS.png</normaloff>:/icon/icon/DFS.png</iconset>
+   </property>
+   <property name="text">
+    <string>深度优先搜索</string>
+   </property>
+  </action>
+  <action name="actionbfs">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/BFS.png</normaloff>:/icon/icon/BFS.png</iconset>
+   </property>
+   <property name="text">
+    <string>宽度优先搜索</string>
+   </property>
+  </action>
+  <action name="showDraw">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/show.png</normaloff>:/icon/icon/show.png</iconset>
+   </property>
+   <property name="text">
+    <string>画板</string>
+   </property>
+  </action>
+  <action name="clearDraw">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/clear.png</normaloff>:/icon/icon/clear.png</iconset>
+   </property>
+   <property name="text">
+    <string>清空</string>
+   </property>
+  </action>
+  <action name="withdrawDraw">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/withdraw.png</normaloff>:/icon/icon/withdraw.png</iconset>
+   </property>
+   <property name="text">
+    <string>撤销</string>
+   </property>
+  </action>
+  <action name="changeBoard">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/code.png</normaloff>:/icon/icon/code.png</iconset>
+   </property>
+   <property name="text">
+    <string>关闭伪代码</string>
+   </property>
+  </action>
+  <action name="createRect">
+   <property name="icon">
+    <iconset>
+     <normaloff>:/icon/icon/add.png</normaloff>:/icon/icon/add.png</iconset>
+   </property>
+   <property name="text">
+    <string>添加</string>
+   </property>
+  </action>
+  <action name="actionprime">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/Prime.png</normaloff>:/icon/icon/Prime.png</iconset>
+   </property>
+   <property name="text">
+    <string>prime算法</string>
+   </property>
+  </action>
+  <action name="actionKruskal">
+   <property name="icon">
+    <iconset resource="src.qrc">
+     <normaloff>:/icon/icon/Kruskal.png</normaloff>:/icon/icon/Kruskal.png</iconset>
+   </property>
+   <property name="text">
+    <string>Kruskal</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
+ <connections/>
+</ui>
